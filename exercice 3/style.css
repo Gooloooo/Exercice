@@ -1,0 +1,36 @@
+
+
+body {
+font-family: "leaves_and_ground";
+}
+
+
+@font-face {
+font-family: "leaves_and_ground";
+src: url("./typographie/leaves_and_ground.ttf") format("truetype");
+}
+
+p {
+    color: blue;
+}
+
+
+img {
+    width: 300px;
+    position: absolute;
+    bottom: 400px;
+    left: 600px;
+}
+
+
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: red;
+    transition: 0.5s;
+}
